@@ -8,16 +8,16 @@
     "alermStatus": "Active Alert"
     },
      {
-    "id": "001",
-    "name": "Berliner Wasserbetriebe",
-    "location": "Motardstrasse 35, 13629, Berlin",
+    "id": "002",
+    "name": "Siemens Technology",
+    "location": "Siemensdamm 46, 13629, Berlin",
     "alermType": "Intrusion",
     "alermStatus": "Active Alert"
     },
      {
-    "id": "001",
-    "name": "Berliner Wasserbetriebe",
-    "location": "Motardstrasse 35, 13629, Berlin",
+    "id": "003",
+    "name": "TU Berlin",
+    "location": "Straße des 17. Juni 135, 10623 Berlin",
     "alermType": "Intrusion",
     "alermStatus": "Active Alert"
     }],
