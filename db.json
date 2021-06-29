@@ -1,13 +1,45 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
-  },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
-  }
+  "customers": [
+    {
+    "id": "001",
+    "name": "Berliner Wasserbetriebe",
+    "location": "Motardstrasse 35, 13629, Berlin",
+    "alermType": "Intrusion",
+    "alermStatus": "Active Alert"
+    },
+     {
+    "id": "001",
+    "name": "Berliner Wasserbetriebe",
+    "location": "Motardstrasse 35, 13629, Berlin",
+    "alermType": "Intrusion",
+    "alermStatus": "Active Alert"
+    },
+     {
+    "id": "001",
+    "name": "Berliner Wasserbetriebe",
+    "location": "Motardstrasse 35, 13629, Berlin",
+    "alermType": "Intrusion",
+    "alermStatus": "Active Alert"
+    }],
+  "drones": [
+    {
+    "id": "001",
+    "droneType": "Octocopter",
+     "customerName":"Berliner Wasserbetriebe",
+    "location":"Motardstrasse 35, 13629, Berlin",
+     "status":"Active",
+     "flightMode":"Patrol Flight",
+     "operationTime":"4h:00m"
+    },
+    {
+    "id": "002",
+    "droneType": "Holocopter",
+     "customerName":"Siemens Technology",
+    "location":"Siemensdamm 46, 13629, Berlin",
+     "status":"Charging",
+     "flightMode":"Back Up",
+     "operationTime":"8h:45m"
+    }
+    
+  ]
 }
